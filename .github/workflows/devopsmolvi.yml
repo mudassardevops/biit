@@ -28,7 +28,7 @@ jobs:
 
       - name: Push the Image to AWS ECR
         run: |
-            docker push 559050236729.dkr.ecr.us-east-1.amazonaws.com/dev/nodeimages:latest
+            docker push  586988810764.dkr.ecr.ap-south-1.amazonaws.com/dev/nodeimages
 
       - name: Revisions on ECS with Updated Docker Images
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
